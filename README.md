@@ -15,3 +15,5 @@ java -jar src/main/resources/lib/jacococli.jar dump --address localhost --port 3
 
 ## export jacoco report
 java -jar src/main/resources/lib/jacococli.jar report target/jacoco-it.exec --classfiles target/classes/com --sourcefiles src/main/java/ --html target/jacoco-report
+
+https://dzone.com/articles/code-coverage-report-generator-for-java-projects-a
